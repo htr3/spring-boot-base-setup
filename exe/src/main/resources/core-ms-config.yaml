@@ -1,0 +1,13 @@
+# src/main/resources/core-ms-config.yaml
+
+port: ${PLATFORM_SERVER_PORT}
+
+services:
+  # Example service URLs configuration
+  exampleService:
+    url: ${EXAMPLE_SERVICE_URL}
+
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
