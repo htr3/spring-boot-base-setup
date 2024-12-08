@@ -1,5 +1,13 @@
 # src/main/resources/application.yml
+server:
+  port: 8080
 
 spring:
   config:
     import: "classpath:core-ms-config.yaml,classpath:module-deployment.properties"
+  couchbase:
+    connection-string: localhost
+    username: Administrator
+    password: Administrator
+    bucket-name: sample
+
