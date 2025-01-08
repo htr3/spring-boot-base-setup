@@ -9,7 +9,6 @@
     <name>${project.groupId}:${project.artifactId}</name>
 
     <modules>
-        <module>delegate</module>
         <module>gateway</module>
         <module>service</module>
         <module>persistence</module>
@@ -17,6 +16,7 @@
         <module>exe</module>
         <module>test</module>
         <module>parent</module>
+        <module>resources</module>
     </modules>
 
 
