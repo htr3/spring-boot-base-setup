@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @PropertySource("classpath:module-deployment.properties")
-@SpringBootApplication(scanBasePackages = "com.base.api.implemantations")
+@SpringBootApplication(scanBasePackages = "com.base.api")
 public class ExeApplication {
 
     public static void main(String[] args) {
